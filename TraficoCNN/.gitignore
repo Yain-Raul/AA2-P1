@@ -1,0 +1,75 @@
+# ===============================
+# Python general
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+*.bak
+
+# ===============================
+# Entornos virtuales
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# Configuración local / IDE
+# ===============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# Archivos del sistema
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Datos / Modelos pesados
+# ===============================
+data/
+datasets/
+*.csv
+*.zip
+*.tar
+*.gz
+
+# ===============================
+# Modelos entrenados / checkpoints
+# ===============================
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# ===============================
+# Archivos temporales de Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Resultados y salidas
+# ===============================
+outputs/
+plots/
+runs/
+*.png
+*.jpg
+
+# ===============================
+# Archivos generados por PyTorch o TensorBoard
+# ===============================
+events.out.tfevents.*
+lightning_logs/
+wandb/
